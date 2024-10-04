@@ -1,0 +1,27 @@
+{
+  "name": "belajar-mern",
+  "version": "1.0.0",
+  "description": "Untuk belajar MERN",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "jest"
+  },
+  "author": "villian",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.20.0",
+    "express": "^4.21.0",
+    "nodemon": "^3.1.4",
+    "yup": "^1.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.7",
+    "@babel/preset-env": "^7.25.7",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "prisma": "^5.20.0",
+    "supertest": "^7.0.0"
+  }
+}
